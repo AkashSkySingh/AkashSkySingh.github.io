@@ -1,5 +1,7 @@
 body {
     font-family: arial, sans-serif;
+    line-height: 1.5;
+    background: rgba(222, 176, 61, 0.97);
 }
 
 h1 {
@@ -10,10 +12,35 @@ h2 {
     font-size: 32;
 }
 
-ol {
-    list-style: upper-alpha;
+header > img {
+  width: 100px;
+}
+
+.footer-header {
+  font-size: 16;
+}
+.footer {
+  font-size: 13;
 }
 
 .ingredients-list {
-    list-style: square inside;
+  list-style: square inside;
+}
+
+.grinding-items {
+  list-style: square;
+}
+
+.link {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+ul > li > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: circle;
 }
