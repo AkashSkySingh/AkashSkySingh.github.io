@@ -1,19 +1,20 @@
 body {
-    font-family: arial, sans-serif;
-    line-height: 1.5;
-    background: rgba(222, 176, 61, 0.97);
+  font-family: arial, sans-serif;
+  line-height: 1.5;
+  background: rgba(222, 176, 61, 0.97);
 }
 
 h1 {
-    font-size: 38;
+  font-size: 38px;
 }
 
 h2 {
-    font-size: 32;
+  font-size: 32;
 }
 
 header > img {
   width: 100px;
+  float: left;
 }
 
 .footer-header {
@@ -25,6 +26,7 @@ header > img {
 
 .ingredients-list {
   list-style: square inside;
+  padding: 0;
 }
 
 .grinding-items {
@@ -57,6 +59,13 @@ input[type="radio"]:checked {
   background-position: 30px 30px;
 }
 
+input[type="radio"],
+select,
+input[type="submit"] {
+  cursor: pointer;
+  outline: none;
+}
+
 input:last-child {
   background-color: gold;
 }
@@ -72,3 +81,115 @@ ol li:nth-of-type(2n) {
 h2 + .user_review {
   border-top: 1px solid black;
 }
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 20px;
+  display: block;
+}
+
+nav {
+  float: right;
+}
+
+body {
+  width: 900px;
+  margin: 0 auto;
+}
+
+section {
+  width: 700px;
+  display: inline-block;
+}
+
+aside {
+  width: 180px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 15px;
+}
+
+.ingredients-list li {
+  margin: 15px 0px;
+}
+
+body section ol {
+  padding: 0;
+  list-style: upper-roman inside;
+}
+
+body section ol li {
+  margin: 3px 0px;
+}
+
+input[type="text"], select {
+  display: block;
+  width: 350px;
+}
+
+select {
+  margin: 10px 0;
+  width: 350px;
+}
+
+textarea {
+  width: 350px;
+}
+
+label {
+  display: block;
+}
+
+figure {
+  margin: 0;
+}
+
+figure img {
+  width: 400px;
+}
+
+.hamburger-dropdown {
+  display: none;
+}
+
+@media all and (max-width: 900px) {
+  nav ul {
+    display: none;
+  }
+  .hamburger-dropdown {
+    display: block;
+  }
+  .hamburger-dropdown > li {
+    background: url(./hamburger.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    width: 50px;
+    height: 50px;
+    /* nearest relatively positioned parent of absolute positioned child */
+    position: relative;
+    cursor: pointer;
+  }
+  .hamburger-dropdown ul {
+    /* Every time we position an element absolutely we should be thinking about
+    which parent element we need to position relatively */
+    position: absolute;
+    top: 50px;
+    left: 0;
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: black 5px 5px 10px;
+  }
+
+  /* This is how we create pure css dropdown effects. No JS required. */
+  .hamburger-dropdown:hover ul {
+    display: flex;
+    background: ghostwhite;
+  }
+
+  .hamburger-dropdown ul li:hover a {
+    text-decoration: underline;
+  }
+};
