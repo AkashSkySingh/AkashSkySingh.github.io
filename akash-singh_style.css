@@ -1,0 +1,19 @@
+body {
+    font-family: arial, sans-serif;
+}
+
+h1 {
+    font-size: 38;
+}
+
+h2 {
+    font-size: 32;
+}
+
+ol {
+    list-style: upper-alpha;
+}
+
+.ingredients-list {
+    list-style: square inside;
+}
