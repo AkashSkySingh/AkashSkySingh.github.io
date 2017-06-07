@@ -522,7 +522,7 @@ The .cd-intro change the background image
 	margin-bottom: 1em;
 }
 .read-more-btn {
-	margin: 10px auto;
+	margin: 4rem auto;
 	width: 15rem;
 	border: #000 solid 1px;
 	padding: 20px 10px 20px 10px;
@@ -713,7 +713,7 @@ Work Thumbnails
 }
 .read-more-btn-small {
 	width: 8rem;
-	margin-top: 2em;
+	margin: .75rem auto;
 	border: #000 solid 1px;
 	padding: 15px 5px 15px 5px;
 	color: rgba(2, 23, 37, 0.7);
@@ -728,8 +728,7 @@ Work Thumbnails
 }
 
 .read-more-posts-btn {
-	margin: 0 auto;
-	margin-bottom: 10rem;
+	margin: 4rem auto;
 	text-align: center;
 	width: 15rem;
 	border: #000 solid 1px;
@@ -818,7 +817,6 @@ Work Thumbnails
 		height: 40rem;
 	}
 	.read-more-posts-btn {
-		margin-bottom: 5rem;
 	}
 	.cd-container-contact-clmn-2 {
 		padding: 0rem;
@@ -1314,7 +1312,6 @@ Blog Post Style
 }
 .read-more-btn-normal {
 	width: 12rem;
-	margin-top: 0rem;
 	border: #000 solid 1px;
 	padding: 15px 5px 15px 5px;
 	color: rgba(2,24,39,0.7);
