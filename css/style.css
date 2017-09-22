@@ -649,6 +649,7 @@ Work Thumbnails
 }
 .cd-container-people-clmn-1 img {
 	width: 100%;
+  min-height: 183px;
 }
 .cd-container-people-clmn-2 {
 	width: 32%;
@@ -657,6 +658,7 @@ Work Thumbnails
 }
 .cd-container-people-clmn-2 img {
 	width: 100%;
+  min-height: 183px;
 }
 .cd-container-people-clmn-3 {
 	width: 32%;
@@ -665,6 +667,7 @@ Work Thumbnails
 }
 .cd-container-people-clmn-3 img {
 	width: 100%;
+  min-height: 183px;
 }
 .cd-container-people-info {
 	text-align: left;
