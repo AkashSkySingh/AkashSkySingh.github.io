@@ -56,9 +56,7 @@ Design is something I wished to simplify for others. In the case of a growing po
 
 
 ### Addition of Technology Stack visuals
+I plan to implement a responsive section for users to list various tech stacks their are strong and experienced in on the webpage. This will allow users to circumvent the need for visitors to see their resume.
 
-
-### 
-
-
-###
+### Addition of Hacker Challenge widgets
+Similar to the feature above, I plan to implement and integrate various widgets for showcasing a user's scores/ratings on sites such as HackerRank, LeetCode, and others.
