@@ -5,7 +5,7 @@
 [live]: http://www.akashpreetsingh.com
 
 
-![image of portfolio](/docs/images/portfolio.png)
+![image of portfolio](/docs/doc/images/portfolio.png)
 
 
 ## Features & Implementation
