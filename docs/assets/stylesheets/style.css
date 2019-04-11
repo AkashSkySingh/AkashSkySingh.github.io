@@ -640,7 +640,8 @@ Work Thumbnails
 
 .cd-container-people {
 	width: 100%;
-	background: none;
+  background: none;
+  margin-bottom: 1rem;
 }
 .cd-container-people-clmn-1 {
 	width: 32%;
