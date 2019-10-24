@@ -478,7 +478,6 @@ The .cd-intro change the background image
 @media only screen and (min-width: 768px) {
   .cd-intro h1 {
     font-size: 80px;
-
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -640,7 +639,18 @@ Work Thumbnails
 
 .cd-container-people {
 	width: 100%;
-	background: none;
+  background: none;
+  margin-bottom: 1rem;
+}
+.cd-container-people-row {
+  width: 100%;
+  background-color: #f9f9f9;
+  display: inline-flex;
+}
+.cd-container-people-row img {
+  min-height: 183px;
+  width: 200px;
+  max-width: 200px;
 }
 .cd-container-people-clmn-1 {
 	width: 32%;
@@ -794,7 +804,12 @@ Work Thumbnails
 	}
 	.cd-container-clmn-8 {
 		width: 100%;
-	}
+  }
+  .cd-container-people-row {
+    display: inline-block;
+    width: 100%;
+    margin-top: 2em;
+  }
 	.cd-container-people-clmn-1 {
 		width: 100%;
 		margin-top: 2em;
